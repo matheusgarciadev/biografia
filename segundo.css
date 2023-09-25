@@ -69,7 +69,6 @@ p {
     height: 40px;
     font-weight: bold;
     font-size: 10px;
-    border: ;
     border-radius: 500px;
     color: green;
     transition: all 0.6s ease-in 0s;
@@ -81,6 +80,6 @@ p {
     color:aqua;
     transform: scale(1.0)rotate(360deg);
     box-shadow: 0 0 30px rgba(0, 255, 203, .64);
-    cursor: grab
+    cursor: grab;
     border: 10px solid;
 }
