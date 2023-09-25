@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgba(17, 0, 255, 0.445);
+    background-image: url("https://img.freepik.com/fotos-premium/bookworms-haven-flat-lay-ilustracao-generative-ai_549702-707.jpg?w=826");
+}
+
+p {
+    margin: 20px;
+}
+
+img {
+    margin-left: 200px; /* Move a imagem 50 pixels para a direita */
+    margin-top: 10px; /* Move a imagem 20 pixels para baixo */
+}
+
+h1 {
+    margin: left 440px;
+    text-align: center;
+    outline: auto;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+
+h4 {
+    text-align:justify
+}
+span {
+    font-family:Arial,Helvetica,sans-serif
+}
+img{
+    border-style:solid; 
+    border-width:2px; 
+    float:left; 
+    height:300px; 
+    margin:25px; 
+    width:290px
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.imagem{
+    max-width: 350px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.texto1{
+    background-color: rgba(0, 255, 255, 0.124);
+    
+}
+p {
+    flex-grow: 1;
+    text-align: justify;
+    background-color: black;
+    color: white;
+}
+.botao{
+    display: flex;
+    place-items:center;
+    justify-content: center;
+    height: 30px;
+    background-color: #1d2834;
+}
+.btn{
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 10px;
+    border: ;
+    border-radius: 500px;
+    color: green;
+    transition: all 0.6s ease-in 0s;
+    box-shadow: inset 9 9 1px #000;
+
+}
+.btn:hover{
+    background: transparent;
+    color:aqua;
+    transform: scale(1.0)rotate(360deg);
+    box-shadow: 0 0 30px rgba(0, 255, 203, .64);
+    cursor: grab
+    border: 10px solid;
+}
